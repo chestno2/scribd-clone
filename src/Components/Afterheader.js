@@ -12,35 +12,35 @@ function Afterheader() {
             <div className="afterheader__heading  mt-4 ">
             <p className="text-center lg:text-5xl text-3xl px-1 font-semibold"> All in one simple subscription</p>
                 
-                <div className="afterheader__Icons lg:grid-cols-6  grid grid-cols-2 mt-7  lg:px-96  " style={{alignItems:"center"}}>
+                <div className="afterheader__Icons lg:grid-cols-6 md:grid-cols-3 grid grid-cols-2 lg:mt-12 mt-8   " style={{alignItems:"center"}}>
                      
-                    <div className="text-center ">  
-                        <BookRoundedIcon style={{color:"#1E7B85"}} className="" />
+                    <div className="text-center px-2 ">  
+                        <BookRoundedIcon style={{color:"#1E7B85",fontSize:50}} className="" />
                         <p className="font-semibold text-md mt-3" >Books</p>
                     </div>
 
-                  <div className="text-center">
-                       <HeadsetRoundedIcon style={{color:"#1E7B85"}} />
+                  <div className="text-center px-2">
+                       <HeadsetRoundedIcon style={{color:"#1E7B85",fontSize:50}} />
                        <p className="font-semibold text-md mt-3" >AudioBooks</p>
                   </div>
 
-                  <div className="text-center">
-                       <ImportContactsIcon style={{color:"#1E7B85"}} />
+                  <div className="text-center px-2">
+                       <ImportContactsIcon style={{color:"#1E7B85",fontSize:50}} />
                        <p className="font-semibold text-md mt-3">Magazines</p>
                   </div>
 
-                  <div className="text-center">
-                      <MicRoundedIcon style={{color:"#1E7B85"}} />
+                  <div className="text-center px-2">
+                      <MicRoundedIcon style={{color:"#1E7B85",fontSize:50}} />
                       <p className="font-semibold text-md mt-3">PodCast</p>
                   </div>
 
-                  <div className="text-center">
-                      <MusicNoteRoundedIcon  style={{color:"#1E7B85"}}/>
+                  <div className="text-center px-2">
+                      <MusicNoteRoundedIcon  style={{color:"#1E7B85",fontSize:50}}/>
                       <p className="font-semibold text-md mt-3">Music</p>
                   </div>
 
-                  <div className="text-center">
-                      <DescriptionRoundedIcon style={{color:"#1E7B85",fontSize:"larger"}} />
+                  <div className="text-center px-2">
+                      <DescriptionRoundedIcon style={{color:"#1E7B85",fontSize:50}} />
                       <p className="font-semibold text-md mt-3">Documents</p>
                   </div>
 

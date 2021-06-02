@@ -3,60 +3,62 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import PinterestIcon from '@material-ui/icons/Pinterest';
+import Deepfooter from './Deepfooter';
+import { colors } from '@material-ui/core';
 function Footer() {
     return (
-        <div className="" >
+        <div className=" cursor-pointer  "  >
             <div className="grid lg:grid-cols-5 md:grid-cols-4 grid-cols-2  lg:p-16 p-8 " >
                    <div className=" ">
-                           <p className="font-bold mt-2" >About</p>
+                           <p className="font-bold mt-2 hover:text-green-600" >About</p>
                         <div className="mt-2" >
-                            <p>About Scribd</p>
-                            <p>Press</p>
-                            <p>Our Blog</p>
-                            <p>Join our Team!</p>
-                            <p>Contact Us</p> 
-                            <p>Invite friends</p>
-                            <p>Gifts</p>
-                            <p>Scribd for enterprise</p>
+                            <p className="hover:text-green-600" >About Scribd</p>
+                            <p className="hover:text-green-600">Press</p>
+                            <p className="hover:text-green-600">Our Blog</p>
+                            <p className="hover:text-green-600">Join our Team!</p>
+                            <p className="hover:text-green-600">Contact Us</p> 
+                            <p className="hover:text-green-600">Invite friends</p>
+                            <p className="hover:text-green-600">Gifts</p>
+                            <p className="hover:text-green-600">Scribd for enterprise</p>
                         </div>
                    </div>
 
                    <div className="footer2" >
                           <p className="font-bold mt-2">Support</p>
                          <div className="mt-2" >
-                         <p>Help/FAQ</p>
-                         <p>Accessibility</p>
-                         <p>Purchase Help</p>
-                         <p>AdChoice</p>
-                         <p>Publishers</p>
+                         <p className="hover:text-green-600">Help/FAQ</p>
+                         <p className="hover:text-green-600">Accessibility</p>
+                         <p className="hover:text-green-600">Purchase Help</p>
+                         <p className="hover:text-green-600">AdChoice</p>
+                         <p className="hover:text-green-600">Publishers</p>
                        </div>
                    </div>
 
                    <div className="footer3">
-                        <p className="font-bold mt-2">Legal</p>
+                        <p className="font-bold mt-2 ">Legal</p>
                            <div className="mt-2" >
-                               <p>Terms</p>
-                               <p>Privacy</p>
-                               <p>Copyright</p>
+                               <p className="hover:text-green-600">Terms</p>
+                               <p className="hover:text-green-600">Privacy</p>
+                               <p className="hover:text-green-600">Copyright</p>
                            </div>
                    </div>
 
                    <div className="footer4" >
-                          <p className="font-bold mt-2">Social</p>
-                          <div className="flex mt-2 " >
+                          <p className="font-bold mt-2 ">Social</p>
+                          <div className="flex mt-2 hover:text-green-600" >
                                <InstagramIcon />
                                <p className="text-xs" >Instagram</p>       
                           </div>
-                          <div className="flex mt-1 " >
+                          <div className="flex mt-1 hover:text-green-600" >
                                <TwitterIcon />
                                <p className="text-xs">Twitter</p>       
                           </div>
-                          <div className="flex mt-1" >
+                          <div className="flex mt-1 hover:text-green-600" >
                                <FacebookIcon className="text-sm" />
                                <p className="text-xs">Facebook</p>       
                           </div>
                        
-                          <div className="flex mt-1 " >
+                          <div className="flex mt-1 hover:text-green-600" >
                                <PinterestIcon />
                                <p className="text-xs">Pininterest</p>       
                           </div>
@@ -71,6 +73,8 @@ function Footer() {
                </div>
 
             </div>
+            <hr></hr>
+            <Deepfooter />
         </div>
     )
 }
