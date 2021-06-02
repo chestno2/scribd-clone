@@ -50,9 +50,14 @@ function Afterheader() {
                 </div>
          </div>
 
-         <div  className="text-center px-4  py-4  mt-10" style={{backgroundColor:"#FAFBFD",height:"200px"}} >
-              <p className=" pt-12   text-xl   font-medium" >Scribd is overall the best and most convenient deal for<br></br> online reading.</p>
-                   <p>Business Insider</p>
+         <div  className=" px-4  py-4  mt-10" style={{backgroundColor:"#FAFBFD",height:"200px"}} >
+              <div className="flex justify-center" style={{alignItems:"center"}} >
+              <img className="h-7 opacity-30 px-2 " src="https://freepngimg.com/thumb/quotation/26686-4-quotation-transparent-image.png"/>
+              <p className=" pt-12   text-xl text-center  font-medium" >Scribd is overall the best and most convenient deal for<br></br> online reading.</p>
+         
+                  </div>
+                  <p className="text-center pl-12 " >Business Insider</p>
+                   
          </div>
     </div>
     )
