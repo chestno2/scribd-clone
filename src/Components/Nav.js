@@ -14,6 +14,8 @@ function Nav() {
             <button style={{outline:"none"}} className="text-white btn  font-semibold px-7 py-3 rounded mr-2 hidden md:inline " >Read Free for 30 Days</button>
                 <button style={{outline:"none"}} className="text-white  font-semibold px-7 py-2 rounded  border-white  border-2    " >SignIn</button>
             </div>
+                  
+
         </div>
     )
 }

@@ -9,7 +9,7 @@ function Cards() {
             <p  className=" text-xl text-center mt-2">Enjoy popular titles handpicked by our editors.</p>
             </div>
             <div className="flex justify-center" >
-            <div className="mt-10 lg:grid grid-cols-2  grid-cols-1  " >
+            <div className="mt-10 lg:grid grid-cols-2   " >
             <Carditems 
             img="https://imgv2-2-f.scribdassets.com/img/word_document/317274694/original/216x287/4bb2ebde8d/1622343583?v=1"
             title="Corporate Chanakya on Leadership"
@@ -51,7 +51,7 @@ function Cards() {
             <div style={{backgroundColor:"#F0F2F9",height:"200px"}} className="  cards__company">
                    
                             <p className="text-center font-semibold text-xl mt-4 text-gray-400 ">In the press</p>
-                            <div className="cards__company__img  lg:mt-4 lg:pt-6 md:pt-6 md:mt-4  sm:grid grid-cols-4 lg:grid-cols-4  md:grid-cols-2  lg:pl-48 pl-32 " >
+                            <div className="cards__company__img  lg:mt-4 lg:pt-6 md:pt-6 md:mt-4  sm:grid grid-cols-4 lg:grid-cols-4  md:grid-cols-2  lg:pl-48 pl-28 " >
                                     
                                     <div className="pt-3 md:mt-2 " >
                                         <img src="https://s-f.scribdassets.com/images/landing/index/logo_techcrunch.svg?5a3154a21" alt="" />

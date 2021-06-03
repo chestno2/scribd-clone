@@ -11,8 +11,8 @@ function Afterheader() {
         <div className="afterheader" >
             <div className="afterheader__heading  mt-4 ">
             <p className="text-center lg:text-5xl text-3xl px-1 font-semibold"> All in one simple subscription</p>
-                
-                <div className="afterheader__Icons lg:grid-cols-6 md:grid-cols-3 grid grid-cols-2 lg:mt-12 mt-8   " style={{alignItems:"center"}}>
+             <div className="flex justify-center" >
+                <div className="afterheader__Icons lg:grid-cols-6 md:grid-cols-3 grid grid-cols-2 lg:mt-12 mt-8    " style={{alignItems:"center"}}>
                      
                     <div className="text-center px-2 ">  
                         <BookRoundedIcon style={{color:"#1E7B85",fontSize:50}} className="" />
@@ -48,6 +48,7 @@ function Afterheader() {
              
 
                 </div>
+            </div>
          </div>
 
          <div  className=" px-4  py-4  mt-10" style={{backgroundColor:"#FAFBFD",height:"200px"}} >
