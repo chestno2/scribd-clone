@@ -8,7 +8,7 @@ function Carditems({img,title,author,status,overview}) {
                
             <div className=" flex justify-start border-2  max-w-xl pt-10 pb-20  lg:m-5  border-gray-100" >
                    <div className=" lg:w-2/6 w-3/5  mx-4  " >
-                       <img src={img} />
+                       <img src={img} alt="img" />
                    </div>
                    
                    <div className="" >

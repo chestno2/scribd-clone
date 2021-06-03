@@ -60,11 +60,11 @@ function Cards() {
                                         <img src="https://s-f.scribdassets.com/images/landing/index/logo_forbes.svg?5a3154a21" alt="" />
                                     </div>
                                     <div className="pt-3 md:mt-2">
-                                        <img src="https://s-f.scribdassets.com/images/landing/index/logo_los_angeles_times.svg?5a3154a21"/>
+                                        <img src="https://s-f.scribdassets.com/images/landing/index/logo_los_angeles_times.svg?5a3154a21" alt="img"/>
                                     </div>
                                    
                                     <div className="md:mt-2" >
-                                        <img src="https://s-f.scribdassets.com/images/landing/index/logo_today.svg?5a3154a21" alt="" />
+                                        <img src="https://s-f.scribdassets.com/images/landing/index/logo_today.svg?5a3154a21" alt="img" />
                                     </div>
 
                             

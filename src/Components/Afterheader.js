@@ -5,7 +5,7 @@ import HeadsetRoundedIcon from '@material-ui/icons/HeadsetRounded';
 import MicRoundedIcon from '@material-ui/icons/MicRounded';
 import MusicNoteRoundedIcon from '@material-ui/icons/MusicNoteRounded';
 import DescriptionRoundedIcon from '@material-ui/icons/DescriptionRounded';
-import { Headset } from '@material-ui/icons';
+
 function Afterheader() {
     return (
         <div className="afterheader" >
@@ -53,7 +53,7 @@ function Afterheader() {
 
          <div  className=" px-4  py-4  mt-10" style={{backgroundColor:"#FAFBFD",height:"200px"}} >
               <div className="flex justify-center" style={{alignItems:"center"}} >
-              <img className="h-7 opacity-30 px-2 " src="https://freepngimg.com/thumb/quotation/26686-4-quotation-transparent-image.png"/>
+              <img className="h-7 opacity-30 px-2 " src="https://freepngimg.com/thumb/quotation/26686-4-quotation-transparent-image.png" alt="img" />
               <p className=" pt-12   text-xl text-center  font-medium" >Scribd is overall the best and most convenient deal for<br></br> online reading.</p>
          
                   </div>

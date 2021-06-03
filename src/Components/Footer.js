@@ -4,7 +4,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import PinterestIcon from '@material-ui/icons/Pinterest';
 import Deepfooter from './Deepfooter';
-import { colors } from '@material-ui/core';
+
 function Footer() {
     return (
         <div className=" cursor-pointer  "  >
@@ -67,8 +67,8 @@ function Footer() {
                <div>
                    <p className="font-bold mt-2">Get Our free Apps</p>
                    <div className="mt-2" >
-                       <img className="mt-2" src="https://s-f.scribdassets.com/webpack/assets/images/shared/app_store/appstore_white_en.f11cfc14.svg" />
-                       <img className="mt-2" src="https://s-f.scribdassets.com/webpack/assets/images/shared/app_store/playstore_en.52ebe950.svg"/>
+                       <img className="mt-2" src="https://s-f.scribdassets.com/webpack/assets/images/shared/app_store/appstore_white_en.f11cfc14.svg" alt="img" />
+                       <img className="mt-2" src="https://s-f.scribdassets.com/webpack/assets/images/shared/app_store/playstore_en.52ebe950.svg" alt="img"/>
                    </div>
                </div>
 
